@@ -14,8 +14,8 @@ hostmaster:
   labels:
     io.rancher.container.pull_image: always
   tty: true
-  hostname: aegir.local.computer
-  image: aegir/hostmaster
+  hostname: aegir.ddns.net
+  image: tommycox/hostmaster
   links:
   - database:database
   stdin_open: true
